@@ -15,7 +15,7 @@ public class HelloController {
 
 	@RequestMapping(value="/banks", method=RequestMethod.GET)
 	public String fetchAllBanks() {
-		return "returning all the bank details";
+		return "returning all the bank details attempt1";
 	}
 	
 	@RequestMapping(value="/customers", method=RequestMethod.GET)
